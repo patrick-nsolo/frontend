@@ -13,10 +13,10 @@ const Navbar = () => {
             <p>MAYOR STORE</p>     
         </div>
         <ul className='nav-menu'>
-            <li onClick{() => {setMenu()}}>Shop <hr/></li>
-            <li onClick{() => {setMenu()}}>Men</li>
-            <li onClick{() => {setMenu()}}>Women</li>
-            <li onClick{() => {setMenu()}}>Kids</li>
+            <li onClick = {() => {setMenu('shop')}}>Shop {menu === 'shop'} <hr/></li>
+            <li onClick = {() => {setMenu('men')}}>Men</li>
+            <li onClick = {() => {setMenu('women')}}>Women</li>
+            <li onClick = {() => {setMenu('kids')}}>Kids</li>
         </ul>
         <div className='nav-login-cart'>
             <button>Login</button>
