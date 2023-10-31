@@ -11,8 +11,10 @@ const Navbar = () => {
             <p>MAYOR STORE</p>     
         </div>
         <ul className='nav-menu'>
-            
-
+            <li>Shop</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
         </ul>
       
     </div>
