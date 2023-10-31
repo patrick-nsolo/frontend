@@ -7,4 +7,9 @@
 .nav-logo{
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+.nav-logo p{
+    color:#171717;
+    font-size: 2rem;
 }
