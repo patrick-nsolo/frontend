@@ -66,4 +66,6 @@
     align-items: center;
     margin-top: -45px;
     margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
 }
