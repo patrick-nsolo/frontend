@@ -4,6 +4,8 @@ import logo from '../Assets/logo.png';
 import cart_icon from '../Assets/cart_icon.png';
 
 const Navbar = () => {
+    //create variable to facilitate navigation link change
+    
   return (
     <div className='navbar'>
         <div className='nav-logo'>
