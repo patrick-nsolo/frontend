@@ -37,4 +37,39 @@
     align-items: center;
     gap:15px;
     width:310px;
+    height:70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color:#fff;
+    font-size: 1.375rem;
+    font-weight: 500;
 }
+.hero-latest-btn:hover{
+    cursor: pointer;
+}
+.hero-right{
+    flex:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
