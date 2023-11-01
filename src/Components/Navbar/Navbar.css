@@ -23,6 +23,7 @@
     color:#626262;
     font-size: 1.2rem;
     font-weight: 600;
+    
 }
 .nav-menu li{
     display: flex;
@@ -31,6 +32,10 @@
     justify-content: center;
     gap:3px;
     cursor: pointer;
+    
+}
+.nav-menu li Link{
+    text-decoration: none;
 }
 .nav-menu hr{
     border: none;
