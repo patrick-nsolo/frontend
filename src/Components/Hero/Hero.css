@@ -50,8 +50,13 @@
 }
 .hero-right{
     flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.hero-right img{
+    height:700px;
+}
 
 
 
